@@ -1,0 +1,14 @@
+<VAST version="3.0">
+  <Ad>
+    <Wrapper>
+      <AdSystem>Wrapper3</AdSystem>
+      <VASTAdTagURI><![CDATA[https://yourusername.github.io/vast-demo/inline.xml]]></VASTAdTagURI>
+      <Impression><![CDATA[https://yourdomain.com/imp3_1]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp3_2]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp3_3]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp3_4]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp3_5]]></Impression>
+      <Creatives/>
+    </Wrapper>
+  </Ad>
+</VAST>

@@ -1,0 +1,26 @@
+<VAST version="3.0">
+  <Ad id="20001">
+    <InLine>
+      <AdSystem>MyInlineAdSystem</AdSystem>
+      <AdTitle>Test Inline Ad</AdTitle>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_1]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_2]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_3]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_4]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_5]]></Impression>
+
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
+                <![CDATA[https://storage.googleapis.com/gvabox/media/samples/stock.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
