@@ -1,13 +1,22 @@
 <VAST version="3.0">
   <Ad>
     <Wrapper>
-      <AdSystem>Wrapper3</AdSystem>
+      <AdSystem>Wrapper1</AdSystem>
       <VASTAdTagURI><![CDATA[https://lm-chetan.github.io/vast-demo/inline.xml]]></VASTAdTagURI>
-      <Impression><![CDATA[https://yourdomain.com/imp3_1]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp3_2]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp3_3]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp3_4]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp3_5]]></Impression>
+
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_1]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_2]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_3]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_4]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_5]]></Impression>
+
+      <TrackingEvents>
+        <Tracking event="start"><![CDATA[https://yourdomain.com/track1_start]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track1_q1]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track1_mid]]></Tracking>
+        <Tracking event="complete"><![CDATA[https://yourdomain.com/track1_complete]]></Tracking>
+      </TrackingEvents>
+
       <Creatives/>
     </Wrapper>
   </Ad>
