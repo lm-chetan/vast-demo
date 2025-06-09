@@ -4,9 +4,11 @@
       <AdSystem>Wrapper1</AdSystem>
       <VASTAdTagURI><![CDATA[https://lm-chetan.github.io/vast-demo/level3.xml]]></VASTAdTagURI>
 
-      <Impression><![CDATA[https://yourdomain.com/imp1_1]]></Impression>
-      ...
-      <Impression><![CDATA[https://yourdomain.com/imp1_5]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_1]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_2]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_3]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_4]]></Impression>
+      <Impression><![CDATA[https://yourdomain.com/imp_inline_5]]></Impression>
 
       <TrackingEvents>
         <Tracking event="start"><![CDATA[https://yourdomain.com/track1_start]]></Tracking>
