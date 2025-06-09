@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <VAST version="3.0">
   <Ad id="20001">
     <InLine>
       <AdSystem>MyInlineAdSystem</AdSystem>
       <AdTitle>Test Inline Ad</AdTitle>
+
+      <!-- Impressions -->
       <Impression><![CDATA[https://yourdomain.com/imp_inline_1]]></Impression>
       <Impression><![CDATA[https://yourdomain.com/imp_inline_2]]></Impression>
       <Impression><![CDATA[https://yourdomain.com/imp_inline_3]]></Impression>
@@ -12,12 +15,23 @@
       <Creatives>
         <Creative>
           <Linear>
+
+            <!-- Tracking Events -->
+            <TrackingEvents>
+              <Tracking event="start"><![CDATA[https://yourdomain.com/track_inline_start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track_inline_q1]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track_inline_mid]]></Tracking>
+              <Tracking event="complete"><![CDATA[https://yourdomain.com/track_inline_complete]]></Tracking>
+            </TrackingEvents>
+
             <Duration>00:00:30</Duration>
+
             <MediaFiles>
               <MediaFile delivery="progressive" type="video/mp4" width="640" height="360">
                 <![CDATA[https://storage.googleapis.com/gvabox/media/samples/stock.mp4]]>
               </MediaFile>
             </MediaFiles>
+
           </Linear>
         </Creative>
       </Creatives>
