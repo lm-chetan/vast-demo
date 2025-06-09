@@ -3,11 +3,18 @@
     <Wrapper>
       <AdSystem>Wrapper1</AdSystem>
       <VASTAdTagURI><![CDATA[https://lm-chetan.github.io/vast-demo/level2.xml]]></VASTAdTagURI>
+
       <Impression><![CDATA[https://yourdomain.com/imp1_1]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp1_2]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp1_3]]></Impression>
-      <Impression><![CDATA[https://yourdomain.com/imp1_4]]></Impression>
+      ...
       <Impression><![CDATA[https://yourdomain.com/imp1_5]]></Impression>
+
+      <TrackingEvents>
+        <Tracking event="start"><![CDATA[https://yourdomain.com/track1_start]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track1_q1]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track1_mid]]></Tracking>
+        <Tracking event="complete"><![CDATA[https://yourdomain.com/track1_complete]]></Tracking>
+      </TrackingEvents>
+
       <Creatives/>
     </Wrapper>
   </Ad>
