@@ -16,13 +16,14 @@
         <Creative>
           <Linear>
 
-            <!-- Tracking Events -->
-            <TrackingEvents>
-              <Tracking event="start"><![CDATA[https://yourdomain.com/track_inline_start]]></Tracking>
-              <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track_inline_q1]]></Tracking>
-              <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track_inline_mid]]></Tracking>
-              <Tracking event="complete"><![CDATA[https://yourdomain.com/track_inline_complete]]></Tracking>
-            </TrackingEvents>
+    <TrackingEvents>
+        <Tracking event="start"><![CDATA[https://yourdomain.com/track_inline_start]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track_inline_q1]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track_inline_mid]]></Tracking>
+        <Tracking event="thirdQuartile"><![CDATA[https://yourdomain.com/track_inline_q3]]></Tracking>
+        <Tracking event="complete"><![CDATA[https://yourdomain.com/track_inline_complete]]></Tracking>
+    </TrackingEvents>
+
 
             <Duration>00:00:30</Duration>
 
