@@ -10,12 +10,13 @@
       <Impression><![CDATA[https://yourdomain.com/imp_inline_4]]></Impression>
       <Impression><![CDATA[https://yourdomain.com/imp_inline_5]]></Impression>
 
-      <TrackingEvents>
-        <Tracking event="start"><![CDATA[https://yourdomain.com/track1_start]]></Tracking>
-        <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track1_q1]]></Tracking>
-        <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track1_mid]]></Tracking>
-        <Tracking event="complete"><![CDATA[https://yourdomain.com/track1_complete]]></Tracking>
-      </TrackingEvents>
+    <TrackingEvents>
+        <Tracking event="start"><![CDATA[https://yourdomain.com/track_inline_start]]></Tracking>
+        <Tracking event="firstQuartile"><![CDATA[https://yourdomain.com/track_inline_q1]]></Tracking>
+        <Tracking event="midpoint"><![CDATA[https://yourdomain.com/track_inline_mid]]></Tracking>
+        <Tracking event="thirdQuartile"><![CDATA[https://yourdomain.com/track_inline_q3]]></Tracking>
+        <Tracking event="complete"><![CDATA[https://yourdomain.com/track_inline_complete]]></Tracking>
+    </TrackingEvents>
 
       <Creatives/>
     </Wrapper>
